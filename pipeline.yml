@@ -240,7 +240,7 @@ Resources:
         # And we deploy the application resources (Elasticache, DynamoDB, etc)
         - Name: ChatResources
           Actions:
-            # Deploy the chat resources
+            # Deploy the chat resources for the test application
             - Name: Deploy
               ActionTypeId:
                 Category: Deploy
